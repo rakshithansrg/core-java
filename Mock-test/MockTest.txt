@@ -1,0 +1,129 @@
+1.      Java:= java is a object oriented programing language, java is a high compatible language.
+	 it as platform independent because WORE (Write once run anywhere) bcz once it will run it convert into byte code then it will run anywhere. 
+	bcz it is platform independent.it is a high level language
+ 
+	Javac:= Javac is compile the .java code..it will compile the code ..also it is a compiler.
+
+2	JDK:= JDK-Java Development Kit= it contains a tools and JRE .It can both write and wxecutein java.
+	JRE:= JRE-Java RunTime Environment=it contains as libraries and JVM. It can only Execute the code.
+	JVM:= JVM-Java Virtual machine = it as execute the byte code after compiler will comipile the code. it as only Execute the code.
+
+3	.java:= it is used to java code that used to compile the java code and it as the extention of file name .java
+ 	.class file:= it is copiled code after compiler will be comiled this code it will automatically converted into .java file
+
+4	java IDE,s it is the platform will execute java code, it is the software platform will execute the java code or progarm
+	it stands for integrated development edition
+
+5	Variables:= Variables are using in java it can be used to store data  or values  
+	 		In variables 2 type class level and method level
+			class level= Static and non Static 
+			Method level=Local and Parameter
+
+6	Object oriented programming language because we can use real time objects ,.
+	object is a real time entity.objects are used to storing data in the form of datatype.
+	This laguage is depend on the objects perticularly real time objects or entities
+
+7	class x workz{
+	public static void main(String[] args)
+	{
+		
+	}
+	public static void main(String[] args)
+	{
+		
+	}
+	}
+
+	It comes an Error because we can't declare a main method at a time in one class ,Already declared
+
+8	Data type is a form of storing the data or information using the data type
+		it as 2 types 
+		1: Primitive =Int ,float,char,double ,long ,byte,short,boolean
+		2: non Primitive= String and all Class Names 
+
+9	Dot Operator is using to concatinating the 2 Strings
+    	in instance veriable we using the dot operator
+	eg: this.name=name;    it means accessing the instace variable with the local variable
+
+10	Java Feature
+  	1.Polymorphism
+	2.Abstraction
+	3.Encapsulation
+	4.Inheritance
+
+11	Array:=Array is the collection of items it can used to storing more data in the one frame
+	It has been declared in the inside the Square brace
+	Eg: int[] number=[12,3,5,6];
+	
+12 	class :=calss is a Keyword it is used to invoke method and variables 
+	object:= object is a real time entity.objects are used to storing data in the form of datatype.
+		an instance of a Java class, meaning it is a copy of a specific class.
+	Eg : for obj is======Course course=new Course();
+	Eg: for class======
+	    class Course
+            { 
+		int name;
+		public static void main(String[] args)
+		{
+                	System.out.println("Name"+name);
+           	}
+	    }
+
+13  	Keywords: keywords are given by the language.it as been predefined.already a default value given by the language
+	10 Keywords:1.Int 
+		    2.float
+		    3.char
+		    4.double 
+		    5.long 
+		    6.byte
+		    7.short
+		    8.boolean
+	            9.if
+ 		   10.else,do,while,for,this,super,static etc
+
+14	Costructor : Constructor is a special Method
+		     It as no return type
+		     Same as class name	
+                     initiat instance variable	
+		
+         types: default and parametaraized constructor
+
+15	Main method is static because it as it can accese static rather than non static it can only be the display part.
+	types it as Static and non static method types,Jvm is only works on a static at the time of execute it will find first main static
+
+16   
+	class Number
+	{
+             public static void main(String[] args)
+             {
+		int[] num={12,3,2,45,6,7,6};
+		for(int i=0;i<num.length;i++)
+		{
+			System.out.println(num[i]);
+		}
+		System.out.println("Length of the array given in the list is:"+num.length);
+             }
+	}
+
+17	Method :Method is a collection of statements that perform some specific task and return the resulr to caller.It can perform task without returning anythig.
+		A method is like a function and it is used to expose behavior of an object 
+		It is a set codes that perform a particular task
+                Eg: static void setcouse(String name)
+			{
+                            Course.name=name;
+			}
+        Method Overloading: class as multiple methods having same name but different parameter
+		Eg: void setPlace(String name,int pincode)
+			{
+				this.name=name;
+				this.pincode=pincode;
+			}
+
+
+
+
+
+
+
+
+
