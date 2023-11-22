@@ -1,0 +1,4 @@
+enum RemoteUsedFor
+{
+	CHANGINGCHANNEL,CONTROLTV,CONTROLAC;
+}
