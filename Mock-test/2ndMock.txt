@@ -1,0 +1,89 @@
+1.	
+	class Prime
+	{
+	public static void main(String[] args)
+	  {
+		int n;
+		if (n/2!=0)
+		{
+			System.out.println("Prime");
+		}
+		else
+		{
+			System.out.println("not prime");	
+		}
+	  }
+      }
+
+
+2.
+	class Reverse
+	{
+		public static void main(String[] args)
+		{
+			String name="Raksha";
+			for(int i=0;i>name.length-1;i--)
+			{	
+				System.out.println(name);
+			}
+			
+		}
+	}
+
+
+
+
+
+3.
+	class UpperLower
+	{
+		public static void main(String[] args)
+		{
+			String input=XworkZ OdC;
+			if(input.charAt[A-Z][a-z]==input/1)
+			{	
+				for(int i=0;i<input.lenth();i++)
+				{
+					System.out.println("inupt"+input)
+				}	
+			}				
++		}
+	}
+
+4.  
+	class Pyramid
+	{
+		public static void main(String args[])
+		{
+			int p;
+			for(int i=0;i<p-1;i++)
+			{
+				for(int j=0;j<p+1;j--)
+				{
+					System.out.print(p(*));
+				}
+			}
+		}
+	}
+
+5
+	class py
+	{
+		public static void main(String args[])
+		{
+			int n=1;
+			for(int i=1;i<7;i--)
+			{
+				for(int j=2;i<7-1;i--)
+				{
+					System.out.println(n);
+				}
+			}
+		}	
+	}
+
+
+
+
+
+
