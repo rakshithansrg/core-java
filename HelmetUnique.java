@@ -4,6 +4,7 @@ class HelmetUnique
 	{
 		Helmet helmet=new Helmet();
 		{
+		    System.out.println("======================");
 			System.out.println("Brand :"+helmet.brand);
 			System.out.println("Type :"+helmet.type);
 			System.out.println("Cost :"+helmet.cost);

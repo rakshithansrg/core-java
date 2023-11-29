@@ -30,6 +30,9 @@ class RemoteMain
 		System.out.println("LG Remote Waranty :"+lg.warranty);
 		System.out.println("LG Remote Total Batteries :"+lg.totalBatteries);
 		
+		
+		Remote r=new LgRemote();
+		r.on();
 		System.out.println("Ending main in RemoteMain");
 	}
 }

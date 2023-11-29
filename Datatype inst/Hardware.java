@@ -2,9 +2,9 @@ class Hardware
 {
 	String name;
 	String type;
-	String brand;
+	Brand brand;
 	
-	Hardware(String name,String type,String brand)
+	Hardware(String name,String type,Brand brand)
 	{
 		this.name=name;
 		this.type=type;
@@ -17,6 +17,10 @@ class Hardware
 		System.out.println("Name :"+this.name);
 		System.out.println("Type :"+this.type);
 		System.out.println("Brand :"+this.brand);
+		if(null!=null)
+		{
+			this.brand.show();
+		}
 		
 	}
 	

@@ -3,9 +3,9 @@ class Brand
 	String name="Sony";
 	String origin="India";
 	String ceoName="Raksha";
-	String[] cities;//5
+	City[] cities;//5
 	
-	void setCities(String[] cities)
+	Brand(City[] cities)
 	{
 		this.cities=cities;
 	}
@@ -21,7 +21,7 @@ class Brand
 		{
 			for(int seq=0;seq<this.cities.length;seq++)
 			{
-				String ref=this.cities[seq];
+				City ref=this.cities[seq];
 				System.out.println("Cities :"+ref+"------Index :"+seq);
 			}
 		}

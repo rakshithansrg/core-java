@@ -25,7 +25,7 @@ class KeyChain
 		this(design,cost);
 		this.noOfKeys=noOfKeys;
 	}
-	KeyChain(String design,double cost,int noOfKeys,String type)
+	KeyChain(String design, double cost,int noOfKeys,String type)
 	{
 		this(design,cost,noOfKeys);
 		this.type=type;

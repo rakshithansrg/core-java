@@ -1,14 +1,19 @@
 class City
 {
-	String name="DVG";
-    String stateName="Karnataka";
+	String name;
+	
+	City(String name)
+	{
+		this.name=name;
+	}
+    
 	
 		
 	void show()
 	{
 		System.out.println("----City----");
 		System.out.println("City :"+this.name);
-		System.out.println("State Name :"+this.stateName);
+		
 	}
 	
 	

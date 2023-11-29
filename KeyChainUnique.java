@@ -4,6 +4,7 @@ class KeyChainUnique
 	{
 		KeyChain keychain=new KeyChain();
 		{
+			System.out.println("======================");
 			System.out.println("Design :"+keychain.design );
 			System.out.println("Cost :"+keychain.cost);
 			System.out.println("No of Keys :"+keychain.noOfKeys);
