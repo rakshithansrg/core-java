@@ -23,7 +23,7 @@ public class Rice {
 
     @Override
     public int hashCode() {
-        System.out.println("print original hash code :"+System.identityHashCode(1));
+        System.out.println("print original hash code :"+System.identityHashCode(1)+"\n hashcode :"+shape.hashCode());
         return 100;
     }
 }

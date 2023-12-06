@@ -1,4 +1,4 @@
-class Restaurant
++class Restaurant
 {
 	String ownerName="Raksha";
 	String[] specialItems;//5

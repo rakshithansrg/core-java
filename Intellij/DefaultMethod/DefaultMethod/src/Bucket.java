@@ -7,7 +7,7 @@ public class Bucket {
         System.out.println("no arg const");
     }
 
-    public void setUse(String shape, int cost, int size) {
+    protected void setUse(String shape, int cost, int size) {
         this.cost = cost;
         this.shape = shape;
         this.size = size;
@@ -20,7 +20,7 @@ public class Bucket {
 
     @Override
     public int hashCode() {
-        System.out.println("hash code of bucket :" + System.identityHashCode(3));
+        System.out.println("hash code of bucket :" + System.identityHashCode(3)+"\n hashcode :"+shape.hashCode());
         return 200;
     }
 }

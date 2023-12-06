@@ -21,7 +21,7 @@ public class Spoon {
 
         @Override
         public int hashCode() {
-            System.out.println("hash code of spoon :" + System.identityHashCode(3));
+            System.out.println("hash code of spoon :" + System.identityHashCode(3)+"\n hashcode :"+super.hashCode());
             return super.hashCode();
         }
     }

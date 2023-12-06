@@ -22,7 +22,7 @@ public class Bowl {
 
     @Override
     public int hashCode() {
-        System.out.println("hash code of bowl :"+System.identityHashCode(3));
+        System.out.println("hash code of bowl :"+System.identityHashCode(3)+"HashCode :"+super.hashCode());
         return 200;
     }
 }
