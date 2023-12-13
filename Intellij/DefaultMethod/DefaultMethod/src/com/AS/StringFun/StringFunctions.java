@@ -16,7 +16,7 @@ public class StringFunctions {
         System.out.println("concating two strings:"+string1.concat(string2));//concat()
         System.out.println(string1.contains("Rakshi"));//contains()
         System.out.println(string1.endsWith("a"));//endsWith()
-        System.out.println(string1.equals(string2));//equals()
+        System.out.println(string1.equals(string2));//equals()n
         byte[] b = string1.getBytes();//getBytes()
         for (int i = 0; i < b.length; i++){
             System.out.print(b[i]);
